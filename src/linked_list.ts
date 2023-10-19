@@ -91,7 +91,7 @@ export default class LinkedList {
 	}
 
 	isEmpty() {
-		return this.count === 0
+		return this.size() === 0
 	}
 
 	size() {
